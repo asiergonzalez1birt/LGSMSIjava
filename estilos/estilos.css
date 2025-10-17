@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* ==========================================================================
+   ESTILOS GENERALES DEL SITIO
+   - Archivo: styles.css
+   - Propósito: maquetación base, tarjetas de destinos, formulario y pie fijo
+   - Notas: usa UTF-8 por acentos/ñ; pensado para integrarse con HTML/XHTML
+   ========================================================================== */
+
+/* ======= ESTILOS GENERALES ======= */
+body {
+  background: #c9e8f1;
+  margin: 0;
+  padding: 0 0 70px; 
+  font-family: system-ui, Arial, sans-serif;
+  color: #222;
+}
+
+h1 {
+  margin: 16px 0;
+  text-align: center;
+}
+
+/* ======= IMAGEN DERECHA ======= */
+.img-derecha {
+  float: right;
+  margin: 12px 24px;
+  width: clamp(220px, 35vw, 520px);
+  height: auto;
+  border-radius: 8px;
+}
+
+/* ======= CONTENIDO PRINCIPAL ======= */
+.contenido {
+  padding: 0 24px 16px;
+  overflow: auto; 
+}
+
+.intro {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.destinos {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.destinos li {
+  background: #ffffff;
+  border: 1px solid #e6e9ef;
+  border-radius: 10px;
+  padding: 0.75rem 1rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+}
+
+.destinos h3 {
+  margin-top: 0;
+  color: #083b4c;
+}
+
+.participar {
+  max-width: 420px;   
+  margin: 0 auto;     
+  clear: both;       
+} 
+
+/* ======= ENLACES ======= */
+a {
+  color: #2f67ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(47, 103, 255, .35);
+  border-radius: 4px;
+}
+
+/* ======= LISTA ORDENADA ======= */
+ol {
+  margin: 1rem auto;
+  padding-left: 2rem;
+  max-width: 700px;
+}
+
+/* ======= FORMULARIO ======= */
+.bloque.contacto {
+  max-width: 420px;
+  margin: 3rem auto;
+  background: #fff;
+  border: 1px solid #e0e3eb;
+  border-radius: 12px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, .05);
+}
+
+.bloque.contacto h2 {
+  margin-bottom: 1rem;
+  color: #2f67ff;
+}
+
+.form-simple {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-simple input {
+  padding: .6rem .8rem;
+  border: 1px solid #cfd6dc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.form-simple input:focus {
+  outline: none;
+  border-color: #2f67ff;
+  box-shadow: 0 0 0 2px rgba(47, 103, 255, .2);
+}
+
+.form-simple .btn {
+  background: #2f67ff;
+  color: #fff;
+  border: none;
+  padding: .7rem 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.form-simple .btn:hover {
+  background: #1e50d8;
+}
+
+.form-simple .btn:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(47, 103, 255, .35);
+}
+
+/* ======= PIE DE PÁGINA ======= */
+footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #083b4c;
+  color: #fff;
+  text-align: center;
+  padding: .75rem 1rem;
+  font-size: 0.95rem;
+}
