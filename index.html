@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AcercandoDestinos</title>
+
+  <!-- Enlace al CSS externo -->
+  <link rel="stylesheet" href="estilos/estilos.css">
+</head>
+
+<body>
+  <h1>Feria de viajes AcercandoDestinos</h1>
+
+  <div class="contenido">
+    <img src="imagenes/bosque.jpg" alt="Bosque verde con sendero" class="img-derecha">
+
+    <section class="intro">
+      <h2>¿Qué Somos?</h2>
+      <p>
+        La <strong>Feria de Viajes AcercandoDestinos</strong> reúne propuestas para
+        amantes de la aventura, la cultura y el descanso. En esta edición destacamos
+        cuatro tipos de experiencias pensadas para todos los gustos:
+      </p>
+
+      <ul class="destinos">
+        <li>
+          <h3>Naturaleza</h3>
+          <p>Rutas entre bosques, parques naturales y costa para respirar aire puro y desconectar.</p>
+          <a href="Naturaleza.html">NATURALEZA</a>
+        </li>
+
+        <li>
+          <h3>Viajar en camper</h3>
+          <p>Libertad total en carretera: pernoctas frente a paisajes únicos y planes flexibles.</p>
+          <a href="Viajarencamper.html">CAMPER</a>
+        </li>
+
+        <li>
+          <h3>Turismo gastronómico</h3>
+          <p>Saborea productos locales, visita mercados y disfruta de la cocina regional.</p>
+          <a href="Turismogastronomico.html">GASTRONOMÍA</a>
+        </li>
+
+        <li>
+          <h3>Montañas</h3>
+          <p>Senderismo y miradores espectaculares en destinos que combinan deporte y relax.</p>
+          <a href="Montaña.html">MONTAÑA</a>
+        </li>
+      </ul>
+
+      <p>
+        En la feria encontrarás información, consejos y ofertas para planificar tu
+        próxima escapada con tu propio estilo.
+		Para más información sobre rutas y experiencias de turismo natural, visita la 
+		<a href="https://www.spain.info/es/naturaleza/" target="_blank">página oficial de Turismo de España</a>.</p>
+
+    </section class="participar">
+  </div>
+	<div class="participar" id="como-participar">
+  <h3>Cómo participar en la feria</h3>
+  <ol>
+    <li>Facilita tu nombre y correo en el apartado Registro</li>
+    <li>Revisa tu correo de confirmación</li>
+    <li>Acude a la feria con tu entrada digital</li>
+  </ol>
+     </div>
+
+  <section class="bloque contacto">
+    <h2>Registro</h2>
+    <form class="form-simple" action="mailto:AcercandoDestinos@feria.com" method="post" enctype="text/plain">
+      <label for="nombre">Nombre</label>
+      <input id="nombre" name="Nombre" type="text" placeholder="Tu nombre" required>
+
+      <label for="email">Correo electrónico</label>
+      <input id="email" name="Email" type="email" placeholder="tucorreo@ejemplo.com" required>
+
+      <button type="submit" class="btn">Enviar solicitud</button>
+    </form>
+  </section>
+  <!-- Botón contador de días hasta la feria -->
+<p style="text-align:center; margin-top:1.5rem;">
+  <button id="btn-feria" class="btn-contador" type="button">
+    Ver cuántos días faltan para la feria
+  </button>
+</p>
+
+<script type="text/javascript" src="funciones/funciones.js"></script>
+
+
+  <footer>
+    © AcercandoDestinos · Información de contacto: AcercandoDestinos@feria.com
+  </footer>
+</body>
+</html>
