@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Feria de Viajes AcercandoDestinos</title>
+    <link>https://asiergonzalez1birt.github.io/LGSMSIjava/index.html</link>
+    <description>Novedades del sitio web de la UD02</description>
+    <language>es-es</language>
+    <lastBuildDate>Fri, 07 Nov 2025 10:00:00 +0100</lastBuildDate>
+
+    <item>
+      <title>Redescubre la Naturaleza</title>
+      <link>https://asiergonzalez1birt.github.io/LGSMSIjava/Naturaleza.html</link>
+      <description>Hemos publicado la sección de destinos de naturaleza.</description>
+      <pubDate>Fri, 07 Nov 2025 10:00:00 +0100</pubDate>
+      <guid>https://asiergonzalez1birt.github.io/LGSMSIjava/Naturaleza.html</guid>
+    </item>
+
+    <item>
+      <title>Prueba nuestras nuevas aventuras en la montaña</title>
+      <link>https://asiergonzalez1birt.github.io/LGSMSIjava/Montaña.html</link>
+      <description>Disponible la información sobre viajes de montaña y rutas.</description>
+      <pubDate>Fri, 07 Nov 2025 10:05:00 +0100</pubDate>
+      <guid>https://asiergonzalez1birt.github.io/LGSMSIjava/Montaña.html</guid>
+    </item>
+
+  </channel>
+</rss>
