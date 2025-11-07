@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Feria de Viajes AcercandoDestinos</title>
     <link>https://asiergonzalez1birt.github.io/LGSMSIjava/index.html</link>
@@ -7,6 +7,12 @@
     <language>es-es</language>
     <lastBuildDate>Fri, 07 Nov 2025 10:00:00 +0100</lastBuildDate>
 
+    <!-- Enlace al propio feed -->
+    <atom:link href="https://asiergonzalez1birt.github.io/LGSMSIjava/feed.xml"
+               rel="self"
+               type="application/rss+xml" />
+
+    <!-- Primer item -->
     <item>
       <title>Redescubre la Naturaleza</title>
       <link>https://asiergonzalez1birt.github.io/LGSMSIjava/Naturaleza.html</link>
@@ -15,13 +21,16 @@
       <guid>https://asiergonzalez1birt.github.io/LGSMSIjava/Naturaleza.html</guid>
     </item>
 
+    <!-- Segundo item -->
     <item>
-      <title>Prueba nuestras nuevas aventuras en la montaña</title>
-      <link>https://asiergonzalez1birt.github.io/LGSMSIjava/Montaña.html</link>
-      <description>Disponible la información sobre viajes de montaña y rutas.</description>
-      <pubDate>Fri, 07 Nov 2025 10:05:00 +0100</pubDate>
-      <guid>https://asiergonzalez1birt.github.io/LGSMSIjava/Montaña.html</guid>
+      <title>Explora el mundo en camper</title>
+      <link>https://asiergonzalez1birt.github.io/LGSMSIjava/Viajarencamper.html</link>
+      <description>Descubre la libertad de viajar por carretera con toda comodidad en tu camper.</description>
+      <pubDate>Fri, 07 Nov 2025 10:10:00 +0100</pubDate>
+      <guid>https://asiergonzalez1birt.github.io/LGSMSIjava/Viajarencamper.html</guid>
     </item>
 
   </channel>
 </rss>
+
+
